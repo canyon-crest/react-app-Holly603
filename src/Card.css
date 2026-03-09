@@ -1,0 +1,32 @@
+.card div{
+    background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
+    border-radius: 15px;
+    padding: 30px;
+    margin: 1px auto;
+    max-width: 400px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+.card h2{
+    color: #091540;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #091540;
+    margin-bottom: 16px;
+}
+
+.card button {
+    background-color: #3F88C5;
+    color: white;
+    border: none;
+    padding: 10px px;
+    margin: 3px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: px;
+    font-weight: 500;
+}
