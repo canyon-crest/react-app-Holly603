@@ -1,8 +1,9 @@
 .card div{
     background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
     border-radius: 15px;
-    padding: 30px;
+    padding: 25px;
     margin: 1px auto;
+    max-height: 200px;
     max-width: 400px;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
     text-align: center;

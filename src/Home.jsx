@@ -1,8 +1,9 @@
 function Home() {
     return (
         <div>
+            <br></br>
             <h1>Holly's Fruit Store</h1>
-            <p>Browse our selection of fresh fruits!</p>
+            <h3>Browse our selection of fresh fruits!</h3>
         </div>
     )
 }
