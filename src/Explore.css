@@ -1,0 +1,126 @@
+.explore h1 {
+  color: #091540;
+  font-size: 2.5em;
+  margin-bottom: 4px;
+}
+
+.explore-subtitle {
+  color: #555;
+  font-size: 1.1em;
+  margin-bottom: 30px;
+}
+
+.api-card {
+  background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
+  border-radius: 15px;
+  padding: 25px;
+  margin: 20px auto;
+  max-width: 500px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.api-card h2 {
+  color: #091540;
+  font-size: 1.4em;
+  margin-bottom: 6px;
+}
+
+.api-desc {
+  color: #333;
+  font-size: 0.95em;
+  margin-bottom: 14px;
+}
+
+.api-card button {
+  background-color: #3F88C5;
+  color: white;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.api-card button:hover {
+  background-color: #2e6fa3;
+}
+
+.api-card button:disabled {
+  background-color: #88b8d8;
+  cursor: not-allowed;
+}
+
+.error {
+  color: #c0392b;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.api-result {
+  margin-top: 16px;
+}
+
+/* Dog API */
+.dog-img {
+  max-width: 100%;
+  max-height: 300px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+/* NASA APOD */
+.api-result h3 {
+  color: #091540;
+  margin-bottom: 10px;
+}
+
+.nasa-img {
+  max-width: 100%;
+  max-height: 350px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.nasa-video {
+  width: 100%;
+  height: 280px;
+  border: none;
+  border-radius: 12px;
+}
+
+.nasa-explanation {
+  color: #222;
+  font-size: 0.85em;
+  margin-top: 10px;
+  text-align: left;
+  line-height: 1.5;
+  max-height: 120px;
+  overflow-y: auto;
+}
+
+.nasa-date {
+  color: #555;
+  font-size: 0.85em;
+  margin-top: 6px;
+}
+
+/* Giphy */
+.gif-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.gif-item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.gif-title {
+  color: #333;
+  font-size: 0.75em;
+  margin-top: 4px;
+}

@@ -5,6 +5,7 @@ import Card from './Card'
 import Home from './Home'
 import About from './About'
 import Contact from './Contact'
+import Explore from './Explore'
 import Footer from './Footer'
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       )}
       {page === 'about' && <About />}
       {page === 'contact' && <Contact />}
+      {page === 'explore' && <Explore />}
       <Footer />
     </>
   )
